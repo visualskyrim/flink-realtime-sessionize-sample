@@ -1,11 +1,5 @@
 # Realtime Solution
 
-## Assumptions
-
-> Given the fact that the data is already in gz file with multiple hours in the same file, **the batch approach is still the most proper solution**.
-
-With that being said, this realtime solution is assuming that the log file is streamed to a Kafka topic.
-And then the sessionized events will be ingested into other Kafka topic.
 
 ## Solution overview
 
